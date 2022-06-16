@@ -132,32 +132,55 @@
     background-color: gray;
 }
 /* =============Specialities==================== */
-.Specialities{
-    background-image: url(./images/shapes/Frame\ 58.jpg);
-    background-size: cover;
+.specialContainer{
+    background-image: url(images/shapes/Frame\ 58.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px 0;
-    
+    background-size: cover;
 }
-.cart{
-    width: 30%;
-    margin: 0 10%;
+.specialContainer h1{
     text-align: center;
-    background-color: White;
-    padding: 30px ;
+    padding: 50px 0;
+    color: #676767;
+}
+.specialCart{
+    width: 30%;
+    padding: 20px 30px;
+    background-color: white;
+    margin: 20px 1%;
+    text-align: center;
     border-radius: 10px;
 }
-.cart span{
-    font-size: 50px;
+.specialCart span{
+    font-size: 40px;
 }
-.cart h3 {
-    font-size: 25px;
-    color: #676767;
-    margin-bottom: 10px;
+.specialCart h2{
+    margin: 10px 0;
 }
-.specialCart-Container{
+.specialCartContainer{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.red{
+    background-color: #fe4f30;
+    color: #fff;
+}
+
+footer{
+    background-color: #0b0d17;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+footer span{
+    color: #fe4f30 !important;
+}
+footer h1{
+    color: #5b5b5b;
 }
